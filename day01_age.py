@@ -1,8 +1,8 @@
-import time
+import time # Модуль 
 
-def ask_name():
+def ask_name(): # Функция, которая спрашивает имя
     name = input("Как тебя зовут? ")
-    return name
+    return name 
 
 name = ask_name()
 
