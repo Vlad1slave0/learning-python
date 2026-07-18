@@ -24,7 +24,7 @@ def calc2030(age):
 age2030_result = calc2030(age)
 
 def main_function(name, age, age_result, age2023_result):
-    time.sleep(1.5)
+    time.sleep(1)
     if age_result == 1:
         print(f"Привет, {name}! Тебе {age}, до совершеннолетия остался {age_result} год! А в 2030 году тебе будет {age2030_result}!")
     elif age_result in (2, 3, 4): 
