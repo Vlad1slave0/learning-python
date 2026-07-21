@@ -17,6 +17,4 @@ def percent_to_float(p):
     return p/100
 
 
-
-
 main()
